@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 40px;
+}
+nav h3 {
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  font-size: 15px;
+  margin-left: 5px;
+  border-radius: 50px;
+}
+.intro {
+  height: 45%;
+  width: 100%;
+  padding: 55px 60px;
+  /* background-color: bisque; */
+}
+.intro h1 {
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -3px;
+}
+.place {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.place h3,
+.place h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.hero-image {
+  height: 87%;
+  width: 100%;
+  background-image: url(./image/myphoto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* about  */
+.about {
+  height: 40%;
+  width: 100%;
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.about h2 {
+  /* background-color: red; */
+  width: 60%;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -2px;
+}
+.about-part2 {
+  width: 35%;
+  height: 100%;
+  border-left: 2px solid black;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icons i {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.work {
+  height: 55%;
+  width: 100%;
+  padding: 50px 60px;
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.work1 {
+  width: 35%;
+  height: 100%;
+  padding-right: 40px;
+  border-right: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.work1 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.work1 i {
+  font-size: 23px;
+}
+.work2 {
+  width: 65%;
+  height: 100%;
+  padding: 0 50px;
+}
+.work2-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.work2-part:nth-child(1) {
+  border-bottom: 2px solid black;
+}
+.work2-part .elam {
+  width: 50%;
+  height: 100%;
+}
+.work2-part .elam:nth-child(1) {
+  border-right: 2px solid black;
+}
+.work2-part .elam:nth-child(2) {
+  padding-left: 40px;
+}
